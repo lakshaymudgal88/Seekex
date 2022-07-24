@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         println("Golu")
+        println("Mudgal Branch")
         seekexVIewModels = ViewModelProvider(this)[SeekexVIewModels::class.java]
 
         setUpRecyclerView()
